@@ -1,0 +1,5 @@
+C:\NetApp\WebApplication1\ContactManager\obj\Debug\ResolveAssemblyReference.cache
+C:\NetApp\WebApplication1\ContactManager\bin\WebApplication1.dll
+C:\NetApp\WebApplication1\ContactManager\bin\WebApplication1.pdb
+C:\NetApp\WebApplication1\ContactManager\obj\Debug\WebApplication1.dll
+C:\NetApp\WebApplication1\ContactManager\obj\Debug\WebApplication1.pdb

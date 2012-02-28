@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Contact Manager</title>
+    <link href="~/Styles/bootstrap-1.2.0.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" id="form1">
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <h3><asp:HyperLink ID="hypLogo" runat="server" NavigateUrl="~/Default.aspx">Contacts Manager</asp:HyperLink></h3>
+          <ul class="nav">
+            <li id="liHome" runat="server"><asp:HyperLink ID="hypHome" runat="server" NavigateUrl="~/Default.aspx">Home</asp:HyperLink></li>
+            <li id="liAdd" runat="server"><asp:HyperLink ID="hypAdd" runat="server" NavigateUrl="~/Add.aspx">Add</asp:HyperLink></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="clearfix"></div>
+
+    
+
+    <div class="container cmBody">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clearfix">
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>
